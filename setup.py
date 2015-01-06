@@ -28,7 +28,7 @@ setup(
     long_description=readme + '\n\n' + doclink + '\n\n' + history,
     author='Hannes Hapke',
     author_email='hannes.hapke@gmail.com',
-    url='https://github.com/hanneshapke/pyzillow',
+    url='https://github.com/adi87/pyzillow',
     packages=[
         'pyzillow',
     ],
