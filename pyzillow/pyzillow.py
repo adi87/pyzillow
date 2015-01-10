@@ -117,14 +117,6 @@ class ZillowResults(object):
         """
         return u'SqFt'
 
-    @property
-    def last_sold_price_currency(self):
-        """
-        lastSoldPrice currency
-        """
-        return self.data.find(
-            self.attribute_mapping['last_sold_price']).attrib["currency"]
-
 
 class GetDeepSearchResults(ZillowResults):
     """
