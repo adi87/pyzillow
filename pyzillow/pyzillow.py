@@ -54,7 +54,7 @@ class ZillowWrapper(object):
                 url=url,
                 params=params,
                 headers={
-                    'User-Agent': 'pyzillow/' + VERSION + ' (Python)'
+                    'User-Agent': "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.2 (KHTML, like Gecko) Ubuntu/11.04 Chromium/15.0.871.0 Chrome/15.0.871.0 Safari/535.2"
                 })
             print request.url
         except (
